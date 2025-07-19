@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post Item - Campus Mart</title>
+</head>
+<body>
+  <h1>Post an Item</h1>
+  <form action="https://campusmart-backend.onrender.com/items" method="POST">
+    <label>Title: <input type="text" name="title" required /></label><br />
+    <label>Price: <input type="number" name="price" required /></label><br />
+    <label>Description: <input type="text" name="description" required /></label><br />
+    <label>Contact: <input type="text" name="contact" required /></label><br />
+    <label>Image URL: <input type="text" name="image" /></label><br />
+    <button type="submit">Post</button>
+  </form>
+</body>
+</html>
